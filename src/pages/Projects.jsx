@@ -6,40 +6,40 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const projects = [
   {
-    id: 1,
-    name: "JobTrack - Job Listing App",
-    screenshots: [
-      "/projects/jobtrack-1.png",
-      "/projects/jobtrack-2.png",
-      "/projects/jobtrack-3.png",
-    ],
-    detailsPath: "/projects/jobtrack",
-    liveLink: "https://jobtrack-client.web.app",
-    github: "https://github.com/ringku/jobtrack-client",
-  },
-  {
-    id: 2,
+    id: 2, // Was 1 before
     name: "Plant Care Tracker",
     screenshots: [
       "/projects/plantcare-1.png",
-      "/projects/plantcare-2.png",
       "/projects/plantcare-3.png",
+      "/projects/plantcare-2.png",
     ],
     detailsPath: "/projects/plantcare",
-    liveLink: "https://plantcare-client.vercel.app",
-    github: "https://github.com/ringku/plantcare-client",
+    liveLink: "https://plant-care-app-92575.web.app/",
+    github: "https://github.com/Sutradhar2071/plant-client",
   },
   {
-    id: 3,
+    id: 3, // Was 2 before
     name: "WhereIsIt - Lost & Found",
     screenshots: [
-      "/projects/whereisit-1.png",
-      "/projects/whereisit-2.png",
-      "/projects/whereisit-3.png",
+      "/public/projects/whereisit-1.png",
+      "/public/projects/whereisit-2.png",
+      "/public/projects/whereisit-3.png",
     ],
     detailsPath: "/projects/whereisit",
     liveLink: "https://regal-speculoos-67aec5.netlify.app/",
-    github: "https://github.com/ringku/whereisit-client",
+    github: "https://github.com/Sutradhar2071/whereisit-client",
+  },
+  {
+    id: 1, // Was 3 before
+    name: "JobTrack - Job Listing App",
+    screenshots: [
+      "/public/projects/jobtrack-1.png",
+      "/public/projects/jobtrack-2.png",
+      "/public/projects/jobtrack-3.png",
+    ],
+    detailsPath: "/projects/jobtrack",
+    liveLink: "https://job-tracker-by-partho1.netlify.app/",
+    github: "https://github.com/Sutradhar2071/job-track",
   },
 ];
 
@@ -83,9 +83,12 @@ const Projects = () => {
 
               {/* Project Info */}
               <div className="w-full lg:w-1/2 space-y-4 text-center lg:text-left">
-                <h3 className="text-2xl font-bold text-accent">{project.name}</h3>
+                <h3 className="text-2xl font-bold text-accent">
+                  {project.name}
+                </h3>
                 <p className="text-base-content">
-                  A modern web application with responsive UI, secure auth, and dynamic features using MERN Stack.
+                  A modern web application with responsive UI, secure auth, and
+                  dynamic features using MERN Stack.
                 </p>
                 <div className="flex flex-wrap justify-center lg:justify-start gap-4 mt-4">
                   <a

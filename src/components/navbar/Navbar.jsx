@@ -24,7 +24,7 @@ const Navbar = () => {
             isActive ? "text-primary font-medium" : "hover:text-primary"
           }
         >
-          About
+          About Me
         </NavLink>
       </li>
     </>
