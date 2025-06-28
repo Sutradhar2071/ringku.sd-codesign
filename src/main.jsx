@@ -3,11 +3,19 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router";
+import MainLayout from "./layouts/MainLayout";
+import Home from "./pages/Home";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello World</div>,
+    Component: MainLayout,
+    children: [
+      {
+        index: true, 
+        Component: Home
+      }
+    ]
   },
 ]);
 createRoot(document.getElementById("root")).render(
