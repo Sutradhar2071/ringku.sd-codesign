@@ -1,7 +1,7 @@
 import React from "react";
 import { FaDownload, FaGithub, FaLinkedin, FaReact } from "react-icons/fa";
 import img from "../../assets/ringku.png";
-import resume from '../../assets/Ringku (1).pdf'
+import resume from "../../assets/Ringku (1).pdf";
 
 const Banner = () => {
   return (
@@ -37,7 +37,7 @@ const Banner = () => {
               href="https://github.com/Sutradhar2071"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline btn-primary flex items-center gap-2"
+              className="btn bg-[#F3F4F6] text-[#333] border border-gray-300 hover:bg-gray-200 flex items-center gap-2"
             >
               <FaGithub className="text-xl" />
               GitHub
@@ -47,7 +47,7 @@ const Banner = () => {
               href="https://www.linkedin.com/in/ringku-sutradhar-8461002aa/"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline btn-secondary flex items-center gap-2"
+              className="btn bg-[#E0F2FE] text-[#0A66C2] border border-[#90CDF4] hover:bg-[#BFDBFE] flex items-center gap-2"
             >
               <FaLinkedin className="text-xl" />
               LinkedIn
