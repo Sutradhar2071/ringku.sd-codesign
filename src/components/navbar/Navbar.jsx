@@ -27,6 +27,16 @@ const Navbar = () => {
           About Me
         </NavLink>
       </li>
+      <li>
+        <NavLink
+          to="/contact"
+          className={({ isActive }) =>
+            isActive ? "text-primary font-medium" : "hover:text-primary"
+          }
+        >
+          Contact Me
+        </NavLink>
+      </li>
     </>
   );
 
