@@ -103,10 +103,11 @@ const Projects = () => {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-sm btn-outline btn-secondary flex items-center gap-2"
+                    className="btn btn-sm bg-[#F3F4F6] text-[#333] border border-gray-300 hover:bg-gray-200 flex items-center gap-2 transition-colors duration-300"
                   >
                     <FaGithub /> GitHub
                   </a>
+
                   <Link
                     to={project.detailsPath}
                     className="btn btn-sm btn-info text-white"
