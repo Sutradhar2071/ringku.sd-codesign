@@ -67,8 +67,8 @@ const Navbar = () => {
 
         {/* Logo + Name */}
         <div className="flex items-center gap-2">
-          <img src={img} alt="Logo" className="h-8 w-8 rounded-full" />
-          <a className="btn btn-ghost text-xl font-semibold hidden sm:inline-block">Ringku.SD</a>
+          <img src={img} alt="Logo" className="h-10 w-10 rounded-full" />
+          <a className="btn btn-ghost text-xl font-bold text-primary hidden sm:inline-block">Ringku.SD</a>
         </div>
       </div>
 

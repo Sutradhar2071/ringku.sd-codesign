@@ -21,9 +21,9 @@ const projects = [
     id: 3, // Was 2 before
     name: "WhereIsIt - Lost & Found",
     screenshots: [
-      "/public/projects/whereisit-1.png",
-      "/public/projects/whereisit-2.png",
-      "/public/projects/whereisit-3.png",
+      "/projects/whereisit-1.png",
+      "/projects/whereisit-2.png",
+      "/projects/whereisit-3.png",
     ],
     detailsPath: "/projects/whereisit",
     liveLink: "https://regal-speculoos-67aec5.netlify.app/",
@@ -33,9 +33,9 @@ const projects = [
     id: 1, // Was 3 before
     name: "JobTrack - Job Listing App",
     screenshots: [
-      "/public/projects/jobtrack-1.png",
-      "/public/projects/jobtrack-2.png",
-      "/public/projects/jobtrack-3.png",
+      "/projects/jobtrack-1.png",
+      "/projects/jobtrack-2.png",
+      "/projects/jobtrack-3.png",
     ],
     detailsPath: "/projects/jobtrack",
     liveLink: "https://job-tracker-by-partho1.netlify.app/",

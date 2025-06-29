@@ -44,7 +44,7 @@ const Banner = () => {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/ringku-sutradhar-8461002aa"
+              href="https://www.linkedin.com/in/ringku-sutradhar-8461002aa/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline btn-secondary flex items-center gap-2"
